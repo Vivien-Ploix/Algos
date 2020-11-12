@@ -8,7 +8,7 @@ fs.readFile(process.argv[2], 'utf8', (error, data) => {
     let parsedData = data.split(' ').map(function(v){return +v})
     let mergeArray = mergeSort([...parsedData])
     console.log("........................")
-    console.log(`QuickSort: ${comparisons} comparaisons :`)
+    console.log(`MegreSort: ${comparisons} comparaisons :`)
     console.log(mergeArray);
     console.log("........................")
     
